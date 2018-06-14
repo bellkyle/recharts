@@ -32,6 +32,7 @@ function Surface(props) {
     <svg
       {...attrs}
       className={layerClass}
+      id="chartgraph"
       width={width}
       height={height}
       style={style}
